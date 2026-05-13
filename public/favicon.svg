@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#0A1215" />
+  <!-- Top rectangle/trapezoid -->
+  <path d="M200 100 H 300 V 160 H 200 Z" fill="#60D3A7" />
+  <!-- Middle diagonal parallelogram -->
+  <path d="M100 160 H 198 L 300 240 H 202 Z" fill="#60D3A7" />
+  <!-- Bottom rectangle -->
+  <path d="M100 240 H 200 V 300 H 100 Z" fill="#60D3A7" />
+</svg>
