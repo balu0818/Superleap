@@ -1,3 +1,16 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/api/leads",
+      "destination": "https://superleap.onrender.com/leads"
+    },
+    {
+      "source": "/api/leads/(.*)",
+      "destination": "https://superleap.onrender.com/leads/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
