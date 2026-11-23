@@ -180,7 +180,8 @@ app.put('/leads/bulk', (req, res) => {
 
 app.use((req, res) => res.status(404).json({ error: 'Not found' }));
 
-const PORT = 4000;
+// const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Mock CRM API running on http://localhost:${PORT}`);
   if (LATENCY_MS) console.log(`  artificial latency: ${LATENCY_MS}ms`);
